@@ -3,20 +3,20 @@ summary: cURL build2 package repository
 
 :
 role: prerequisite
-location: ../../openssl/openssl.git##HEAD
+location: https://github.com/wroyca/openssl.git#ci-3.5.9
 
 :
 role: prerequisite
-location: ../ca-certificates-curl.git##HEAD
+location: https://github.com/wroyca/ca-certificates-curl.git#ca-bundle-2026-10-20
 
 :
 role: prerequisite
-location: ../../zlib/zlib.git##HEAD
+location: https://github.com/build2-packaging/zlib.git##HEAD
 
 :
 role: prerequisite
-location: https://github.com/build2-packaging/brotli.git##HEAD
+location: https://github.com/wroyca/brotli.git#wip-1.2.1
 
 :
 role: prerequisite
-location: https://github.com/build2-packaging/zstd.git##HEAD
+location: https://github.com/wroyca/zstd.git#wip-1.5.7
