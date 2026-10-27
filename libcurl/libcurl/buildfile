@@ -9,6 +9,8 @@ vsc{*}: extension = vers
 import imp_libs  = libssl%lib{ssl}
 import imp_libs += libcrypto%lib{crypto}
 import imp_libs += libz%lib{z}
+import imp_libs += libbrotli%lib{brotlidec}
+import imp_libs += libzstd%lib{zstd}
 
 lib{curl}: {h c}{**} $imp_libs
 

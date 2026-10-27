@@ -56,6 +56,8 @@
 /* Enabled features.
  */
 #define HAVE_LIBZ           1
+#define HAVE_BROTLI         1
+#define HAVE_ZSTD           1
 #define CURL_ENABLE_NTLM    1
 #define USE_RESOLV_THREADED 1
 #define USE_IPV6            1
@@ -347,7 +349,6 @@
 #undef HAVE_NETINET_IN6_H
 #undef HAVE_IDN2_H
 #undef HAVE_LIBIDN2
-#undef HAVE_BROTLI
 #undef HAVE_GETPASS_R
 #undef HAVE_GSSAPI
 #undef HAVE_GSSGNU
@@ -364,7 +365,6 @@
 #undef HAVE_CLOSESOCKET_CAMEL
 #undef HAVE_GLIBC_STRERROR_R
 #undef HAVE_QUICHE_CONN_SET_QLOG_FD
-#undef HAVE_ZSTD
 #undef HAVE_IOCTLSOCKET_CAMEL
 #undef HAVE_MBEDTLS_DES_CRYPT_ECB
 #undef HAVE_WC_DES_ECBENCRYPT
