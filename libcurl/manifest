@@ -18,5 +18,5 @@ builds: -wasm
 depends: * build2 >= 0.15.0
 depends: * bpkg >= 0.15.0
 depends: libz ^1.2.1100
-depends: libcrypto >= 1.1.1
-depends: libssl >= 1.1.1
+depends: libcrypto >= 3.0.0
+depends: libssl >= 3.0.0
